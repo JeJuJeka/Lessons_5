@@ -1,0 +1,164 @@
+/* Шрифти */
+/* Montserrat */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@0,600;0,700;1,400;1,500&display=swap');
+
+/* Orelega */
+@font-face {
+	font-family: "Orelega";
+	src: url("../fonts/OrelegaOne-Regular.woff2") format("woff2"), url("../fonts/OrelegaOne-Regular.woff") format("woff");
+	font-display: swap;
+	font-weight: 400;
+	font-style: normal;
+}
+
+/* Обнулення */
+*,
+*::before *::after {
+	margin: 0;
+	padding: 0;
+	border: none;
+	box-sizing: border-box;
+}
+
+li {
+	list-style: none;
+}
+
+a {
+	color: inherit;
+}
+
+a:link,
+a:visited {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+img {
+	vertical-align: top;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: inherit;
+	font-size: inherit;
+}
+
+input,
+button,
+textarea {
+	font-weight: inherit;
+	font-size: inherit;
+}
+
+button {
+	cursor: pointer;
+	color: inherit;
+	background-color: inherit;
+}
+
+body {
+	line-height: 1;
+	font-size: 14px;
+}
+
+/* Налаштування */
+
+body {
+	background-color: rgba(255, 0, 0, 0.15);
+	line-height: 1.2;
+	font-size: 16px;
+}
+
+.zmist1 {
+	font-family: "Orelega", sans-serif;
+	font-size: 17px;
+	font-style: normal;
+	font-weight: 400;
+	padding: 0px 15px;
+	margin: 25px;
+	border: 2px solid black;
+	width: 350px;
+}
+
+.link {
+	color: rgb(82, 82, 156);
+}
+
+p {
+	font-family: "Montserrat", sans-serif;
+	font-size: 16px;
+	font-style: italic;
+	font-weight: 400;
+	text-indent: 10px;
+}
+
+.textone {
+	font-family: "Montserrat", sans-serif;
+	font-size: 30px;
+	font-style: normal;
+	font-weight: 700;
+	text-shadow: 3px 3px 3px rgb(78, 24, 24);
+	text-align: center;
+	text-transform: uppercase;
+	letter-spacing: 7px;
+}
+
+h2 {
+	font-family: "Montserrat", sans-serif;
+	font-size: 22px;
+	font-style: normal;
+	font-weight: 600;
+	text-decoration: underline;
+	text-shadow: 1px 1px 1px grey;
+}
+
+h3 {
+	font-family: "Montserrat", sans-serif;
+	font-size: 19px;
+	font-style: normal;
+	font-weight: 600;
+	text-shadow: 1px 1px 1px grey;
+}
+
+span {
+	font-family: "Montserrat", sans-serif;
+	font-size: 17px;
+	font-style: normal;
+	font-weight: 600;
+}
+
+.end {
+	color: green;
+	font-weight: 500;
+	font-size: 20px;
+}
+
+.perelik {
+	font-family: "Montserrat", sans-serif;
+	font-size: 16px;
+	font-style: italic;
+	font-weight: 400;
+}
+
+.block1 {
+	background-color: rgba(233, 233, 32, 0.288);
+	margin-bottom: 30px;
+}
+
+.block2 {
+	background-color: rgba(0, 26, 255, 0.253);
+	margin-bottom: 30px;
+}
+
+.block3 {
+	background-color: rgba(32, 233, 59, 0.288);
+	margin-bottom: 30px;
+}
